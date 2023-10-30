@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+}
+.nav {
+	position: fixed;
+}
+.logo {
+	background-color: #ffffff;
+	width: 100%;
+}
+.logo img {
+	width: 15%;
+	display: block;
+        margin-left: auto;
+        margin-right: auto;
+	padding-bottom: 10px;
+}
+.container {
+	background-color: #808080;
+  	width: 100%;
+	padding-top: 1px;
+}
+
+.nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+}
+
+.nav ul button{
+	background: none;
+	padding-right: 10px;
+	border: 0;
+}
+.nav a {
+	color: #000000;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #ffffff;
+}
+.category a {
+	color: #000000;
+	text-decoration: none;
+	display: inline;
+}
+.category a:hover {
+	color: #ffffff;
+}
+.definition {
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+	padding-top: 150px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.div {
+	background-color: #808080;
+  	width: 40%;
+	height: 48%;
+	margin: 50;
+	float: left;
+}
+.div h2 {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+.div img {
+	width: 90%;
+	display: block;
+        margin-left: auto;
+        margin-right: auto;
+	padding-bottom: 15px;	
+}
+.div p {
+	margin: 0 auto;
+	text-align: center;
+  	width: 90%;
+	padding: 10px;
+	background-color: #ffffff;
+  	width: 90%;
+}
+.divex {
+	float: left;
+  	width: 40%;
+}
+.divex h2 {
+        margin-left: 60px;
+}
+.divex img {
+  	height: 50%;
+        margin-left: 60px;
+}
+.divex p {
+        margin-left: 60px;
+}
+.divex a {
+	text-decoration: none;
+	color: #000000;
+	background-color: #808080;
+	padding: 10px;
+	border: 1px solid black;
+        margin-left: 60px;
+}
+.divex a:hover {
+	color: #ffffff;
+}
+.span {
+	background-color: #808080;
+  	width: 40%;
+	height: 48%;
+	margin: 50;
+	float: right;
+}
+.span h2 {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+.span img {
+	width: 90%;
+	display: block;
+        margin-left: auto;
+        margin-right: auto;
+	padding-bottom: 15px;	
+}
+.span p {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #ffffff;
+  	width: 90%;
+}
+.spanex {
+	float: right;
+  	width: 40%;
+}
+.spanex img {
+  	height: 50%;
+}
+.spanex a {
+	text-decoration: none;
+	color: #000000;
+	background-color: #808080;
+	padding: 10px;
+	border: 1px solid black;
+}
+.spanex a:hover {
+	color: #ffffff;
+}
